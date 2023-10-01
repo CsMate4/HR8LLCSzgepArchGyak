@@ -1,0 +1,94 @@
+1. Gyakorlat. (Alap UNIX parancsok) (Megcsinálva: Ubuntu 22-04-3 LTS -en)
+
+a.) Változtassa meg a jelszavát! 
+    Parancs: passwd
+
+    csmate@lancelot-vm-ubuntu:~$ passwd
+    Changing password for csmate.
+    Current password: 
+    New password: 
+    Retype new password: 
+    passwd: password updated successfully
+
+b.) Jelenítse meg a rendszer kézikönyv gyűjteményét! 
+    Parancs: man (kézikönyv pl.: Intro vagy ls)
+
+
+c.) Írattassa ki a munkajegyzék nevét, amiben éppen dolgozik! 
+    Parancs: pwd
+
+    csmate@lancelot-vm-ubuntu:~$ pwd
+    /home/csmate
+
+
+d.) Kik vannak bejelentkezve a rendszerbe? Mióta használják azt? Mióta inaktívak? Milyen parancsot futtatnak éppen?
+    Parancs: w
+
+    csmate@lancelot-vm-ubuntu:~$ w
+    16:11:17 up 19 min,  1 user,  load average: 0,02, 0,02, 0,03
+    USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+    csmate   tty2     tty2             15:52   18:58   0.11s  0.10s /usr/libexec/gnome-session-binary --session=ubuntu
+
+
+e.) Jelenítse meg az utoljára bejelentkezett felhasználókat! Jelenítse meg az utolsó 5 bejelentkezést! 
+    Parancs: last (Utolsó 5: last -n 5)
+
+    smate@lancelot-vm-ubuntu:~$ last -n 5
+    csmate   tty2         tty2             Sun Oct  1 15:52   still logged in
+    reboot   system boot  6.2.0-33-generic Sun Oct  1 15:52   still running
+    csmate   tty2         tty2             Sun Oct  1 15:47 - down   (00:04)
+    reboot   system boot  6.2.0-33-generic Sun Oct  1 15:47 - 15:52  (00:04)
+
+    wtmp begins Sun Oct  1 15:47:26 2023
+
+
+f.) Írattassa ki azokat a felhasználókat, akik be vannak jelentkezve! 
+    Parancs: who
+
+    csmate@lancelot-vm-ubuntu:~$ who
+    csmate   tty2         2023-10-01 15:52 (tty2)
+
+
+g.) Kik vannak bejelentkezve, mikor és honnan jelentkezett be! 
+    Parancs: who --ips VAGY w --ip-addr
+
+    csmate@lancelot-vm-ubuntu:~$ who --ips
+    csmate   tty2         2023-10-01 15:52 (tty2)
+-----------------------------------------------------------------------
+    csmate@lancelot-vm-ubuntu:~$ w --ip-addr
+    16:26:59 up 34 min,  1 user,  load average: 0,00, 0,00, 0,00
+    USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+    csmate   tty2     tty2             15:52   34:40   0.11s  0.10s /usr/libexec/gnome-session-binary --session=ubuntu
+
+
+h.) Ki mikor melyik gépre jelentkezett be és hány perce nem csinál semmit! 
+    Parancs: w (és az Idle érték az)
+
+    csmate@lancelot-vm-ubuntu:~$ w
+    16:20:48 up 28 min,  1 user,  load average: 0,00, 0,00, 0,00
+    USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+    csmate   tty2     tty2             15:52   28:29   0.11s  0.10s /usr/libexec/gnome-session-binary --session=ubuntu
+
+
+i.) Ki van bejelentkezve, a teljes neve, mikor jelentkezett be! 
+
+
+j.) Írjon egy üzenetet a szomszédjának!
+    Parancs echo "Üzenet a szomszédnak!"
+
+    csmate@lancelot-vm-ubuntu:~$ echo "Üzenet a szomszédnak!"
+    Üzenet a szomszédnak!
+
+
+k.) Nézze meg a date parancs kézikönyvét!
+    Parancs: man date
+
+
+l.) Hogyan kell paraméterezni a date parancsot ahhoz, hogy csak az évszámot írja ki? 
+    Parancs: date +%Y
+
+m.) Hogyan lehet megszakítani az éppen futó programot? 
+    CTRL + C
+
+n.) Törölje a képernyőt!
+    Parancs: clear
