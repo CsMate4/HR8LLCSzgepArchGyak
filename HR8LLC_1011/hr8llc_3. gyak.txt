@@ -1,0 +1,97 @@
+Számítógép architektúrák – 3. Gyakorlat
+
+1. Fájlkezelő parancsok, jogosultságok
+    1. mappák,fájleok létrehozása:
+        mkdir lecke3
+        cd lecke3
+        mkdir task
+        cd task
+
+        touch 1.md
+        touch 2.md
+        mkdir avenged_sevenfolder
+        touch dummy.js
+        touch filler_episode.mkv
+        touch .hidden_file
+        mkdir homework
+        touch runnable
+        touch script.sh
+
+    2. mappák,fájleok jogosultságának beállítása:
+        chmod 664 1.md
+        chmod 600 2.md
+        chmod 755 avenged_sevenfolder
+        chmod 666 dummy.js
+        chmod 660 filler_episode.mkv
+        chmod 644 .hidden_file
+        chmod 770 homework
+        chmod 755 runnable
+        chmod 710 script.sh
+
+2. Adott ls -l parancs kimenetének értelmezése:
+    -rw-rw-r-- 1 robert ruby 241 szept 26 2023 README.md
+
+    1. Ki a tulajdonosa a README.md fájlnak?
+        robert
+    
+    2. Melyik csoport a tulajdonosa a README.md fájlnak?
+        ruby
+
+    3. Igaz vagy hamis a következő állítás? “A README.md fájl üres.”
+        Nem.
+
+    4. Igaz vagy hamis az alábbi állítás? “A robert csoportjába tartozó felhasználók szerkeszthetik a README.md fájlt?”
+        Nem, mivel a csoport neve ruby.
+
+    5. Igaz vagy hamis az alábbi állítás? “A fájl egy szövegszerkesztőben akárki által megnyitható.”
+        Igen, read engedélye mindenkinek van.
+    
+    6. A következő parancs kiadása után a README.md fájl ki számára lesz olvasható? chmod 600 README.md
+        Csak a fájl tulajdonosának azaz robert -nek.
+
+    7. Adott az alábbi jogosultság egy fájlra: rw-rw-rw-. Fejezze ki számmal!
+        666
+
+    8. Adott az alábbi jogosultság egy fájlra: rw-r-----. Fejezze ki számmal!
+        640
+
+    9. Adott az alábbi jogosultság egy fájlra: rw-r-xr-x. Fejezze ki számmal!
+        633
+
+    10. Adott az alábbi jogosultság egy fájlra: rwxrwxrwx. Fejezze ki számmal!
+        777
+
+    11. Adott az alábbi jogosultság egy fájlra: rwx------. Fejezze ki számmal!
+        700
+
+    12. Adott az alábbi jogosultság egy fájlra: rwxr--r--. Fejezze ki számmal!
+        744
+
+    13. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 644. Ki tudja a fájlt olvasni?
+        Mindenki.
+    
+    14. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 644. Ki tudja a fájlt olvasni?
+        Mindenki.
+    
+    15. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 711. Futtatható-e a fájl egy tetszőleges felhasználó számára?
+        Igen futtatható, a fájl tulajdonosa számára.
+    
+    
+    16. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 640. Tudja-e a fájlt írni a birtokos csoport tagja?
+        Nem, csak a fájl tulajdonosa írhat a fájlba.
+    
+    
+    17. Az alábbi szám egy fájl jogosultság halmazt fejez ki: 600. Ki látja a fájlt a rendszeren?
+        Csak a fájl tulajdonosa láthatja/olvashatja azt.
+    
+    18. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 600. Ki léphet be a mappába?
+        Csak a mappa tulajdonosa.
+    
+    19. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 660. Ki látja a fájlokat a mappában?
+        Csak a mappa tulajdonosa illetve a csoportban lévő felhasználók láthatják azt.
+    
+    20. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 744. Ki hozhat létre fájlt a mappában?
+        Csak a mappa tulajdonosa hozhat létre fájlt a mappában.
+    
+    21. Az alábbi szám egy mappa jogosultság halmazt fejez ki: 555. Ki törölhet fájlt a mappában?
+        Senki, kivéve a rendszergazda.
