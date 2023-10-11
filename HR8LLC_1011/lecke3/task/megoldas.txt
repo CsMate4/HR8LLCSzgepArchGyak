@@ -1,0 +1,32 @@
+Számítógép architektúrák BSc
+3. Gyakorlat
+2023. 10. 11.
+
+Készítette:
+    Cser Máté
+    Szak: Programtervező informatikus
+    Neptunkód: HR8LLC
+
+Miskolc, 2023
+
+1. feladat - Fájlkezelő parancsok, jogosultságok
+Fájlok, mappák létrehozása:
+    touch 1.md
+    touch 2.md
+    mkdir avenged_sevenfolder
+    touch dummy.js
+    touch filler_episode.mkv
+    touch .hidden_file
+    mkdir homework
+    touch runnable
+    touch script.sh
+Jogosultságok beállítása:
+    chmod 664 1.md
+    chmod 600 2.md
+    chmod 755 avenged_sevenfolder
+    chmod 
+    chmod
+    chmod
+    chmod
+    chmod
+
