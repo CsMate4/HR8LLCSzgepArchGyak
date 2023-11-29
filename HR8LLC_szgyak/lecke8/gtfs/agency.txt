@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+31,MVK Zrt.,http://www.mvkzrt.hu,Europe/Budapest,hu,+36 46 514 900

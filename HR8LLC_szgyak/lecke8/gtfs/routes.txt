@@ -1,0 +1,51 @@
+agency_id,route_id,route_short_name,route_long_name,route_type
+31,15074,1V,Tiszai pályaudvar - Felső-Majláth,0
+31,15168,3A,Búza tér - Berzsenyi Dániel utca,3
+31,15170,34,Avas kilátó - Bodótető,3
+31,15172,8,Repülőtér - Hűtőház,3
+31,15176,16,Újgyőri főtér - Bányaüzem,3
+31,15178,24,Repülőtér - Szinvapark,3
+31,15182,32,Avas kilátó - Gömöri pályaudvar,3
+31,15187,35,Avas kilátó - Centrum,3
+31,15188,12,Repülőtér - Egyetemváros,3
+31,15190,14,Repülőtér - Hejő-park,3
+31,15192,6,Újgyőri főtér - Pereces,3
+31,15200,29,Avas kilátó - Újgyőri főtér,3
+31,15212,9,Újgyőri főtér - Tokaji Ferenc utca,3
+31,15213,7,Búza tér - Felsőzsolca,3
+31,15214,21,Tiszai pályaudvar - Kandó Kálmán utca,3
+31,15216,1,Tiszai pályaudvar - Majális-park,3
+31,15220,19,Újgyőri főtér - Komlóstető,3
+31,15224,15,Felső-Majláth - Ómassa,3
+31,15227,4,Búza tér - Görömbölyi pincesor,3
+31,15234,11,Búza tér - Bábonyi-bérc,3
+31,15236,31,Tiszai pályaudvar - Avas kilátó,3
+31,15238,20,Repülőtér - Tapolca,3
+31,15242,68,Újgyőri főtér - Bükkszentlászló,3
+31,15247,5,Felső-Majláth - Lillafüred,3
+31,15253,3,Búza tér - Szirma,3
+31,15254,44,AUCHAN Pesti út - Centrum,3
+31,15486,43,Búza tér - Takata,3
+31,15800,30,Tiszai pályaudvar - Avas kilátó,3
+31,15801,54,Repülőtér - Felső-Majláth,3
+31,15802,28,Búza tér - Tampere városrész,3
+31,16364,240,Mechatronikai Park - Repülőtér,3
+31,17378,45,AUCHAN Pesti út - Búza tér,3
+31,17424,53,Déli Ipari Park - Búza tér,3
+31,18321,101B,Szondi György utca - Berekalja,3
+31,19289,1AV,Diósgyőri Gimnázium - Tiszai pályaudvar,0
+31,19290,2V,Tiszai pályaudvar - Vasgyár,0
+31,19291,1G,Felső-Majláth - Szondi György utca,3
+31,19292,12G,Repülőtér - Szondi György utca,3
+31,19293,14G,Szondi György utca - Repülőtér,3
+31,20274,35G,Szondi György utca - Avas kilátó,3
+31,21563,34G,Bodótető - Szondi György utca,3
+31,22529,900,Szondi György utca - Hejőpark - Szondi György utca,3
+31,22693,1VP,Tiszai pályaudvar - Szent Anna tér,3
+31,23901,36,Avas kilátó - Repülőtér,3
+31,23902,39,Újgyőri főtér - Szent Anna tér - Avas kilátó - Újgyőri főtér,3
+31,23903,901,Szondi György utca - Tiszai pályaudvar - Felső-Majláth,3
+31,23904,914,Miskolctapolca - Hejőpark - Repülőtér,3
+31,23905,935,Szondi György utca - Avas kilátó,3
+31,23906,20A,Miskolctapolca - Búza tér,3
+31,23907,21G,Szondi György utca - Újgyőri főtér,3
